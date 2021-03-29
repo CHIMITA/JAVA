@@ -42,12 +42,11 @@ public class Main {
 
 	 private static void attack(int powerGage2) {
 		 --powerGage;
-		 System.out.println("���۾ƺ�");
+		 System.out.println("½´ÆÛ¾ÆºÌ");
 		 System.out.println("PowerGage :" + powerGage);
 	}
 
 	static void attack() {
-		System.out.println("�ƺ�");
-		
+		System.out.println("¾ÆºÌ");
 	}
 }
