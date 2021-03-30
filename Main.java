@@ -11,7 +11,7 @@ public class Main {
 
 		damage = attack(100, 1000);
 		
-		System.out.println("¾îÅÃÇÑ µ¥¹ÌÁö :" + damage);
+		System.out.println("Â¾Ã®Ã…ÃƒÃ‡Ã‘ ÂµÂ¥Â¹ÃŒÃÃ¶ :" + damage);
 
 	}
 
