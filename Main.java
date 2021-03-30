@@ -1,52 +1,25 @@
-package method2;
+package method3;
 
 public class Main {
-	
-	static int powerGage = 3;
-	
+
+	static int myHP = 100;
+	static int monsterHP = 1000;
+
 	public static void main(String[] args) {
-		int userCommand = 1;
+
+		int damage = 0;
+
+		damage = attack(100, 1000);
 		
-		if (powerGage > 1) {
-			attack(powerGage);
-		} else {
-			attack();
-		}
-		if (powerGage > 1) {
-			attack(powerGage);
-		} else {
-			attack();
-		}
-		if (powerGage > 1) {
-			attack(powerGage);
-		} else {
-			attack();
-		}
-		if (powerGage > 1) {
-			attack(powerGage);
-		} else {
-			attack();
-		}
-		if (powerGage > 1) {
-			attack(powerGage);
-		} else {
-			attack();
-		}
-		if (powerGage > 1) {
-			attack(powerGage);
-		} else {
-			attack();
-		}
-	
+		System.out.println("¾îÅÃÇÑ µ¥¹ÌÁö :" + damage);
+
 	}
 
-	 private static void attack(int powerGage2) {
-		 --powerGage;
-		 System.out.println("Â½Â´Ã†Ã›Â¾Ã†ÂºÃŒ");
-		 System.out.println("PowerGage :" + powerGage);
-	}
+	private static int attack(int userHP, int mobHP) {
+		int damage = 0;
 
-	static void attack() {
-		System.out.println("Â¾Ã†ÂºÃŒ");
+		damage = mobHP - userHP;
+
+		return damage;
 	}
 }
