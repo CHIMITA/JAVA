@@ -37,7 +37,6 @@ public class Main2 {
 		} else {
 			attack();
 		}
-
 	}
 
 	 private static void attack(int powerGage2) {
